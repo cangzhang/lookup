@@ -270,6 +270,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "lookup"
+version = "0.1.0"
+dependencies = [
+ "cli-clipboard",
+ "mki",
+ "winapi",
+ "winput",
+]
+
+[[package]]
 name = "malloc_buf"
 version = "0.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -559,16 +569,6 @@ dependencies = [
  "redox_syscall",
  "remove_dir_all",
  "winapi",
-]
-
-[[package]]
-name = "translate"
-version = "0.1.0"
-dependencies = [
- "cli-clipboard",
- "mki",
- "winapi",
- "winput",
 ]
 
 [[package]]
